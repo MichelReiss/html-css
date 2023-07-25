@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto escondido</title>
+    <style>
+        div > p {
+            display: none;
+        }
+        div:hover{
+            color: red;
+        }
+        div:hover > p {
+            display: block;
+            background-color: black;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <p>passe o mouse no texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>texto escondido</p>
+    </div>
+    
+</body>
+</html>
