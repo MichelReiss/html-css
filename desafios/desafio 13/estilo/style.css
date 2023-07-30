@@ -34,7 +34,7 @@ header > h1 {
     padding-top: 50px;
    
     font-variant: small-caps;
-    font-size: 5vw;
+    font-size: 10vw;
  
 }
 header > p {
@@ -62,7 +62,7 @@ a:hover
 .normal > p
  {
 font-family: var(--fonte3);
-font-size: 2vw;
+font-size: 5vw;
 }
 
 .imagem
@@ -81,7 +81,7 @@ font-size: 2vw;
     background-color: rgba(0, 0, 0, 0.425);
     width: 200px;
     padding: 10px;
-    font-size: 2vw;
+    font-size: 5vw;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
 #img01 {
